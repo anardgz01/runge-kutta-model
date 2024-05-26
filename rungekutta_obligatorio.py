@@ -18,9 +18,9 @@ DELTA = G*M_EARTH/DISTANCE_EARTHMOON**3
 MU = M_MOON/M_EARTH
 INITIAL_VELOCITY = 1.12e4
 H=1
-ITERATIONS = 100000
+ITERATIONS = 170000
 INITIAL_LATITUDE = np.pi/2
-INITIAL_THETA = np.pi/8
+INITIAL_THETA = np.pi/5
 
 #I want to resolve r_tilde=r/DISTANCE_EARTHMOON, phi_tilde=phi, p_r_tilde=p_r/(m*DISTANCE_EARTHMOON), p_phi_tilde=p_phi/(m*DISTANCE_EARTHMOON**2)
 #Create the arrays
